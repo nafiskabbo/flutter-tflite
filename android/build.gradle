@@ -65,4 +65,5 @@ dependencies {
     
     implementation("org.tensorflow:tensorflow-lite:${tflite_version}")
     implementation("org.tensorflow:tensorflow-lite-gpu:${tflite_version}")
+    implementation("org.tensorflow:tensorflow-lite-select-tf-ops:${tflite_version}")
 }
